@@ -1,0 +1,14 @@
+[package]
+name = "mysql_derive"
+version = "0.1.0"
+authors = ["Satoshi Amemiya"]
+
+[lib]
+name = "mysql_derive"
+proc-macro = true
+
+[dependencies]
+mysql = "*"
+syn = { version = "*", features = ["full"] }
+aster = "*"
+quote = "*"
